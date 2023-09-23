@@ -27,7 +27,6 @@ app.get('/api/token/:token_id', function(req, res) {
     'attributes': {
       'Token': tokenIdInt,
       'Points': `${person.Points}`,
-      'Artist': `${person.Artist}`,
       'Rank': `${person.Rank}`
     },
     'image': `${person.imgurl}`
